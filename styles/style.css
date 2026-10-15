@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #FFE4E1;
+    color: #D87093;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    background-color: #D87093;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none; /*quita el subrayado automatico*/
+    margin: 0 15px;
+    font-weight: bold; /*negrilla*/
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#subtitulo{
+	max-width: 1000px; /*ancho máximo de píxeles*/
+    margin: 40px auto; /*margen arriba y abajo y centra horizontal*/
+    padding: 30px; /*30 píxeles de espacio interno entre el contenido y los bordes*/
+    background-color: white; /*color de la caja */
+    border-radius: 15px; /*Redondea las esquinas de la caja*/
+}
+
+.contenido{
+    display: flex;/*convierte el contenedor en un contenedor flexible*/
+    align-items: center;/*centra verticalmente los elementos dentro del contenedor*/
+    gap: 30px; /*Deja un espacio entre los elementos*/
+}
+
+.imagen img{
+    width: 300px; /*ancho de la imagen*/
+    border-radius: 15px; /*Redondea las esquinas de la imagen*/
+}
+.imagen2 img{
+	display: block; /*Convierte la imagen en un elemento de bloque*/
+    margin: auto; /*centra la imagen horizontal*/
+	width: 500px;  /*ancho de la imagen*/
+    border-radius: 15px; /*Redondea las esquinas de la imagen*/
+}
+.imagen3 img{
+	display: block; /*Convierte la imagen en un elemento de bloque*/
+    margin: auto; /*centra la imagen horizontal*/
+	width: 500px; /*ancho de la imagen*/
+    border-radius: 15px; /*Redondea las esquinas de la imagen*/
+}
+
+.descripcion{
+    text-align: justify; /*alinea el texto a ambos lados*/
+   
+}
+
+h2{
+    width: 100%; /*El título ocupa todo el ancho disponible*/
+    text-align: center; 
+}
+
+footer{
+    text-align: center;
+    padding: 20px;/*Agrega espacio interno alrededor del contenido*/
+    background-color: #D87093;
+    color: white;
+}
